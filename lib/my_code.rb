@@ -7,3 +7,11 @@ def map(source_array)
   end
 result
 end
+
+def reduce(source_array, sv = nil)
+  counter = 0
+  result = 0
+  while condition
+
+  end
+end
