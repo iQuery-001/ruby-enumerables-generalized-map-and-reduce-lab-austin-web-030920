@@ -9,9 +9,15 @@ result
 end
 
 def reduce(source_array, sv = nil)
-  counter = 0
-  result = 0
-  while condition
-
+  if sv
+    num1 = sv
+    i = 0
+  else
+    num1 = array[0]
+    i = 1
+  end
+  while i < source_array.length do
+    sum = yield(sum, array[i])
+    i += 1
   end
 end
